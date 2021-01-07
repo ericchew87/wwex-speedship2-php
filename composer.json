@@ -1,0 +1,17 @@
+{
+  "name": "ericchew87/wwex-speedship2-php",
+  "type": "library",
+  "homepage": "https://github.com/ericchew87/wwex-speedship2-php",
+  "description": "WWEX SpeedShip2 PHP package. Classes generated using wsdltophp/packagegenerator",
+  "license": "LGPL-3.0+",
+  "require": {
+    "php": ">=5.3.3",
+    "ext-soap": "*",
+    "wsdltophp/packagebase": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ericchew87\\WWEXSpeedShip2PHP\\": "./src/"
+    }
+  }
+}
